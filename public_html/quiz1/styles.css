@@ -1,0 +1,120 @@
+body{
+    background-image: url("./images/bg.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+h1{
+    font-family:'Concert One', cursive;
+    color:black;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size:11mm;
+}
+h3{
+    text-align: center;
+    color:darkgrey;
+    font-family:'Concert One', cursive;
+    font-size: 10mm;
+    margin-bottom: 50px;
+}
+h4{
+    color:black;
+    font-family:'Concert One', cursive;
+    font-size: 7mm;
+    text-shadow: 0px 0px 10px white;
+}
+h5{
+    color:darkgrey;
+    font-family:'Gaegu', cursive;
+    font-size: 8mm;
+    margin-bottom: 1px;
+}
+h6{
+    text-align: center;
+    color:darkgrey;
+    font-family:'Gaegu', cursive;
+    font-size: 5mm;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+p{
+    color:darkgrey;
+    font-family:'Gaegu', cursive;
+    font-size: 5mm;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgba(128, 128, 128, 0.5);
+    background-blend-mode: overlay;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-family:'Gaegu', cursive;
+    font-size: 10mm;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 330px;
+    display: block;
+    margin-right: auto;
+    font-size: 28px; 
+    padding: 10px 20px;
+}
+
+.column {
+    display: inline-block;
+    text-align: center;
+}
+.column img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 70px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/*With Simple Caption*/
+.column#caption {
+    position: relative;
+}
+.column#caption .text {
+    position: absolute;     
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    opacity: 0;
+             
+}
+.column#caption .text h4 {      
+    margin: 0;
+}
+.column#caption:hover .text {
+    opacity: 1;
+
+}
+.column#caption:hover img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}

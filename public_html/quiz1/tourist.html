@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>tourist places♡</title>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Gaegu&display=swap" rel="stylesheet" type='text/css'>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            * {box-sizing: border-box}
+            .mySlides {display: none}
+            img {vertical-align: middle;}
+
+            /* Slideshow container */
+            .slideshow-container {
+              max-width: 1000px;
+              position: relative;
+              margin: auto;
+            }
+
+            /* Next & previous buttons */
+            .prev, .next {
+              cursor: pointer;
+              position: absolute;
+              top: 50%;
+              width: auto;
+              padding: 16px;
+              margin-top: -22px;
+              color: white;
+              font-weight: bold;
+              font-size: 18px;
+              transition: 0.6s ease;
+              border-radius: 0 3px 3px 0;
+              user-select: none;
+            }
+
+            /* Position the "next button" to the right */
+            .next {
+              right: 0;
+              border-radius: 3px 0 0 3px;
+            }
+
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover, .next:hover {
+              background-color: rgba(0,0,0,0.8);
+            }
+
+            /* Caption text */
+            .text {
+              color: darkgrey;
+              font-size: 5mm;
+              font-family: 'Gaegu', cursive;;
+              padding: 8px 12px;
+              position: absolute;
+              top: 350px;
+              width: 100%;
+              text-align: center;
+            }
+
+            /* The dots/bullets/indicators */
+          .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+          }
+
+          .active, .dot:hover {
+            background-color: #717171;
+          }
+
+          /* Fading animation */
+          .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+          }
+
+          @-webkit-keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+          }
+
+          @keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1} 
+          } 
+
+          /* On smaller screens, decrease text size */
+          @media only screen and (max-width: 300px) {
+            .prev, .next,.text {font-size: 11px}
+          }
+        </style>
+    </head>
+    <body>
+    <div class="sidenav">
+            <h1>
+                <b>Get to Know Better</b><br>
+            </h1>
+            <a href="index.html" class = "column" id = "caption" ><span class = "text" ><h4>homepage</h4></span><img src = "./images/homepage.png"></a>  
+            <a href="profile.html" class = "column" id = "caption" ><span class = "text" ><h4>profile</h4></span><img src = "./images/profile.png"></a>  
+            <a href="hometown.html" class = "column" id = "caption" ><span class = "text" ><h4>hometown</h4></span><img src = "./images/hometown.png"></a>  
+            <a href="food.html" class = "column" id = "caption"><span class = "text"><h4>local<br>foods</h4></span><img src = "./images/food.png"></a>  
+            <a href="tourist.html" class = "column" id = "caption"><span class = "text"><h4>tourist<br>places</h4></span><img src = "./images/tourist.png"></a>  
+            
+        </div>
+        <div id="main" class="main">
+            <h3> T O U R I S T&nbsp;&nbsp;&nbsp;P L A C E S </h3>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="./images/1.png" style="width:100%">
+                    <div class="text">Beach and Tulungagung are inseparable things. The nature beauty of the sandy beaches on the southern coast can’t be overlooked, trully the gems of the city.
+                        There are plenty beaches you can visit here.<br><br>
+                        Nowadays, the popular ones are Kedung Tumpang beach. 
+                        What makes Kedung Tumpang impressive is the rock cliffs swept by the swell and the natural small ponds. 
+                        the clear turquoise water has enticed both locals and foreigners to take time off in Kedung Tumpang.<br><br>
+                        Another beaches we can visit in Tulungagung are Sanggar Beach, Sine Beach, Popoh Beach, Klatak Beach, Dlodo Beach, Sioro Beach, Gemah Beach, Blumbung Beach and many more.
+                    </div>
+                </div>
+    
+                <div class="mySlides fade">
+                    <img src="./images/2.png" style="width:100%">
+                    <div class="text">
+                        Ranu Gumbolo Tulungagung, is a beautiful lake, famously known as Waduk Wonorejo by the locals. This charm is located about 24 km away from the city center. 
+                        While exploring here, you are not only pampered by the nature beauty. The visitors could enjoy some facilities such as a play ground, fishing arena, and speedboat rental for the lake exploration.<br>
+                    </div>
+                </div>
+    
+                <div class="mySlides fade">
+                    <img src="./images/3.png" style="width:100%">
+                    <div class="text">
+                        Who says that Tulungagung is only identical with the beaches? Like the rests of the regions in East Java, the city of marble has modern theme waterparks. 
+                        It’s where you can feel the great sensation of playing with water. There are Jambooland waterpark and Splash Waterpark.<br><br>
+                        In Jambooland, Aside of playing with water, the visitors are free to try the challenging ride like the rollercoaster – it’s great to trigger your adrenaline. 
+                        And for Splash waterpark, the visitors are free to try a vast array of water rides ranging from waterslide, race slide, and spilling bucket.
+                        It also features the giant aquarium, food court, toilets, and a play ground so that the people feel comfortable and stay longer.<br>
+                    </div>
+                </div>
+    
+                <div class="mySlides fade">
+                    <img src="./images/4.png" style="width:100%">
+                    <div class="text">
+                        An attraction used to be known as Kusuma Wicitra Park is located in the heart of the city, on Jalan R.A. Kartini.
+                The shady trees and beautiful garden add the charm of Aloon-Aloon Park. It opens 24hours a day and free, you just need to pay the parking service<br><br>
+                Despite its limited area, it comes with complete facilities to ease the visitors such as a jogging track, an outbound venue, 
+                a couple of rides, a yard, and a skateboard arena. Additionally, the visitors could enjoy the complimentary WiFi, 
+                reflexology pool, fish pond, and clean toilet. For those seeking selfie spot, be sure to show your pose before 
+                the 30-meter-tall effigy of Garuda and the fountain with colorful lights.
+                    </div>
+                </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    </div>
+    </body>
+</html>
